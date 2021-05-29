@@ -25,7 +25,7 @@ export default class Home extends React.Component {
         })
         .catch(error => {
             this.setState({ errorMessage: error.toString() });
-            console.error('There was an error!', error);
+            console.error('error!', error);
         }); 
     }
 

@@ -6,7 +6,7 @@ export default function Details(repo){
     var repository = []
     try{
         repository = Fetchedrepository.state.Repository
-    }catch (e) {
+    }catch (error) {
         repository = Fetchedrepository
     }
     

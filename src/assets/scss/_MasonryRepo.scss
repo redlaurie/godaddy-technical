@@ -1,6 +1,6 @@
 .masonry-repo {
     position: relative;
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
     background-size: cover;
     background-position: center center;
@@ -18,7 +18,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 20px;
+        padding: 0px;
         box-sizing: border-box;
     }
 	.Repo-title, div {
