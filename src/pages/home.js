@@ -1,5 +1,6 @@
 import React from 'react';
 import {RepoMasonry} from '../components'
+
 export default class Home extends React.Component {
     constructor(props) {
         super(props);
@@ -17,7 +18,7 @@ export default class Home extends React.Component {
             if (!response.ok) {
                 // get error message from body or default to response statusText
                 const error = (data && data.message) || response.statusText;
-                return Promise.reject(error); //returns error if response is faulty
+                return Promise.reject(error); //returns error if response is faulty or null
             }
 
             this.setState({ GitHubRepositories: data }) //this sets the state and re-renders the page to include the new data
@@ -26,9 +27,9 @@ export default class Home extends React.Component {
             this.setState({ errorMessage: error.toString() });
             console.error('There was an error!', error);
         }); 
-
-
     }
+
+
     render() {
         const { GitHubRepositories } = this.state; 
         
