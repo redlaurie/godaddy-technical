@@ -1,0 +1,33 @@
+.site-navigation {
+	height: 80px;
+	width: 100%;
+	background: black;
+	display: flex;
+	justify-content: space-between;
+	color: #eee9e9;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	span{
+		font-size: 24px;
+		font-weight: 800;
+		display: flex;
+		align-items: center;
+		margin-left: 100px;
+		flex-direction:column;
+	}
+	.ion-ios-menu{
+			font-size: 36px;
+			width: 65px;
+			align-items: center;
+			cursor: pointer;
+			display: none;
+	}
+	.menu-content-container{
+		display: flex;
+		align-items: center;
+		margin-right: 100px;
+
+	}
+	
+
+}

@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### cd godaddy-technical 
+
+In order to run the below commands you will Node.JS or Yarn installed and you will need to open your terminal on your computer --Linux or windows--  and that will allow you to run the following commands. if these commands also then dont work then it is likely you dont have a system such as Node.js or Yarn and so will need to install one. 
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -17,7 +21,8 @@ You will also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+There are 3 tests in this project. A test for Home which makes sure the component that generates each blog is being rendered, A test for that component to ensure that if nothing is passed to the map the project wont work so I can be sure during run time the data is being fetched, And an App.js test which makes sure repositories are displayed. 
+
 
 ### `npm run build`
 
@@ -26,8 +31,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -39,32 +42,23 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Libraries used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For this project only a few extra libraries have been installed and for specific reasons. 
 
-### Code Splitting
+## sass
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Sass was installed to be able to use SCSS. I find Scss alot nicer and easier to use than base css as it has alot more functionality built in already without the need to add further plugins. Thisi means I could already have animations and decorators without having to keep installing additional libraries. 
 
-### Analyzing the Bundle Size
+## enzyme
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Enzyme is a library I almost always install to help with automated testing. The Shallow command specifically allows access to: Props, State and HTML of a page meaning I can be sure certain components are being called and rendered or re-rendered. It also allows me to render a page to check for errors and be sure for example the map component shows an error when there is nothing passed to it. 
 
-### Making a Progressive Web App
+## Colour choices
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+I chose a rather common colour scheme of Black and white for this project because those are the colours of GitHub on there website. I thought since this was getting Github repositories a matching colour scheme would make sense. An alternative colour scheme I thought about was using GoDaddys colour scheme as it is there repositories. 
 
-### Advanced Configuration
+## Ommited content
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If there was enough time I would of loved to have gotten an image of each repository in action so I could of placed it as the background for each individual repository in the grid. I feel this would have made a much nicer viewing experience. 

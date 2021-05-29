@@ -1,0 +1,35 @@
+.masonry-repo {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+	color: white;
+	background: black;
+    text-decoration: none;
+    margin: 0 auto;
+    min-height: 225px;
+
+	.Repo-text {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+	.Repo-title, div {
+        float: left;
+        width: 100%;
+        z-index: 10;
+        font-weight: 300;
+    }
+	.Repo-title {
+        font-size: 20px;
+        margin-block-start: 0;
+        margin-block-end: 10px;
+        color: white;
+    }
+}
