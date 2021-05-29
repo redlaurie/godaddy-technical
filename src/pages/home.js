@@ -35,12 +35,14 @@ export default class Home extends React.Component {
         
         //here we are calling the RepoMasonry component which will construct our grid
         return (
-            <div className="home">
-                <div className="header-content text-md-center">
-                    <h1>Repositories</h1>
+            <body>
+                <div className="home">
+                    <div className="header-content text-md-center">
+                        <h1 style={{color: 'white'}}>Repositories</h1>
+                    </div>
+                    <RepoMasonry Repositories={GitHubRepositories} columns={3} /> 
                 </div>
-                <RepoMasonry Repositories={GitHubRepositories} columns={3} /> 
-            </div>
+            </body>
         );
     }
 }

@@ -7,7 +7,7 @@ export default function MasonryRepo({Repo}){
     return (
             <div className="masonry-repo"><Link to={{ pathname: '/details',  state:{Repository: Repo} }}>
                 <div className="Repo-text" style={{justifyContent: 'flex-end'}}>
-                    <div className="row" style={{height: "30%", backgroundColor: "purple"}}>
+                    <div className="row" style={{height: "30%", backgroundColor: "#630085"}}>
                         <div className="col text-md-center" >
                             <h1 className="Repo-title">{Repo.name}</h1>
                        
