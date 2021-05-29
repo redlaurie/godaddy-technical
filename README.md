@@ -2,13 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### cd godaddy-technical 
+
+In order to run the below commands you will Node.JS or Yarn installed and you will need to open your terminal on your computer --Linux or windows--  and that will allow you to run the following commands. if these commands also then dont work then it is likely you dont have a system such as Node.js or Yarn and so will need to install one. 
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### cd godaddy-technical 
-
-In order to run the below commands you will Node.JS or Yarn installed and you will need to open your terminal on your computer --Linux or windows--  and that will allow you to run the following commands. if these commands also then dont work then it is likely you dont have a system such as Node.js or Yarn and so will need to install one. 
 
 ### `npm start`
 
