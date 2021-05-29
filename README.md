@@ -60,6 +60,15 @@ Enzyme is a library I almost always install to help with automated testing. The 
 
 I chose a rather common colour scheme of Black and white for this project because those are the colours of GitHub on there website. I thought since this was getting Github repositories a matching colour scheme would make sense. An alternative colour scheme I thought about was using GoDaddys colour scheme as it is there repositories. 
 
+## File Structure
+
+The files are structred into 3 parts and are all within the src file:
+Assets which contain the Scss for each page,
+Components which contain all the components that get rendered on the pages,
+Pages which are the core pages which are accessed by links
+
 ## Ommited content
 
 If there was enough time I would of loved to have gotten an image of each repository in action so I could of placed it as the background for each individual repository in the grid. I feel this would have made a much nicer viewing experience. 
+
+I also would of liked to improve the overal quality of how it looks. Whilst I wouldnt say its ugly it could deffinatly look better. 

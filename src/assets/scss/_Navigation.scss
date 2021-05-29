@@ -28,6 +28,15 @@
 		margin-right: 100px;
 
 	}
+	a{
+			text-decoration: none;
+			padding: 0 0px 0 0px;
+			font-size: 20px;
+			color: #eee9e9;
+			font-weight: 700;
+			&:hover{
+					color: grey;
+			}
 	
-
+	}
 }

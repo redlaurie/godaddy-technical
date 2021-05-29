@@ -6,8 +6,8 @@ import { shallow, configure } from "enzyme";
 
 configure({ adapter: new Adapter() });
 
-describe('countRepositories', () => {
-  it('returns the correct count of repositories', async () => {
+describe('Check for repositories being rendered', () => {
+  it('returns the correct count renders', async () => {
     const answer = await shallow(<Home />)
     expect(answer.find("RepoMasonry").length).toEqual(1);
   });

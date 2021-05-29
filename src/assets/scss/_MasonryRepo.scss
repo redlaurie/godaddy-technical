@@ -11,6 +11,7 @@
     text-decoration: none;
     margin: 0 auto;
     min-height: 225px;
+	transition: transform .2s;
 
 	.Repo-text {
         height: 100%;
@@ -32,4 +33,8 @@
         margin-block-end: 10px;
         color: white;
     }
+
+}
+.masonry-repo:hover {
+	  transform: scale(1.05);
 }
