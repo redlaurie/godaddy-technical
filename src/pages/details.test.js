@@ -14,7 +14,6 @@ it("renders location state", () => {
       <Details location={state}/>
     </Router>
   );
-
   getByText(state.name);
   getByText(state.description);
 });

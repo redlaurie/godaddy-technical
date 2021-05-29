@@ -11,5 +11,6 @@ it('should throw an error when there is nothing to map', () => {
     const renderList = () => {
           render(<RepoMasonry />);
     };
+
     expect(renderList).toThrow(error);
   });
